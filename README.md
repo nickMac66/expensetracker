@@ -20,7 +20,7 @@ A modern web application for tracking expenses built with **React**, **AWS Ampli
 ### Frontend:
 - **React**: For building the UI.
 - **AWS Amplify UI**: Pre-designed components for React.
-- **CSS**: Styled with AWS UI styles for sleek design.
+- **CSS**: Styled with AWS UI styles.
 
 ### Backend:
 - **AWS Amplify DataStore**: Handles data interactions for the Expense model.
@@ -28,17 +28,6 @@ A modern web application for tracking expenses built with **React**, **AWS Ampli
 
 ---
 
-## Project Setup
-
-### Prerequisites:
-1. **Node.js** and **npm** installed.
-2. AWS CLI and Amplify CLI installed and configured.
-3. An AWS account with necessary permissions.
-
----
-
 ### Steps to Run the Project:
 
-Visit URL: https://main.d2342wc0cx7i71.amplifyapp.com/
-
-
+**1. Visit URL:** https://main.d2342wc0cx7i71.amplifyapp.com/
