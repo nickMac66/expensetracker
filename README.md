@@ -1,12 +1,44 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application for tracking expenses built with **React**, **AWS Amplify**, and **AWS UI Components**. This application enables users to add, view, and delete expenses. It features user authentication and a real-time data update mechanism using Amplify's DataStore.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **User Authentication**: Secure login and logout using AWS Amplify's Authenticator with Cognito.
+- **Expense Management**: Create, view, and delete expenses in real-time.
+- **Responsive Design**: Built with Amplify's `@aws-amplify/ui-react` components for mobile-friendly UI.
+- **Serverless Backend**:
+  - AWS Amplify for configuration and data integration.
+  - Utilizes Amplify DataStore for real-time data storage and retrieval.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+### Frontend:
+- **React**: For building the UI.
+- **AWS Amplify UI**: Pre-designed components for React.
+- **CSS**: Styled with AWS UI styles for sleek design.
+
+### Backend:
+- **AWS Amplify DataStore**: Handles data interactions for the Expense model.
+- **AWS Cognito**: Manages authentication.
+
+---
+
+## Project Setup
+
+### Prerequisites:
+1. **Node.js** and **npm** installed.
+2. AWS CLI and Amplify CLI installed and configured.
+3. An AWS account with necessary permissions.
+
+---
+
+### Steps to Run the Project:
+
+Visit URL: https://main.d2342wc0cx7i71.amplifyapp.com/
+
+
